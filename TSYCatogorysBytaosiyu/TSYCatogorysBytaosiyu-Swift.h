@@ -11,3 +11,6 @@
 
 
 #endif /* TSYCatogorysBytaosiyu_Swift_h */
+
+#include <sqlite3.h>
+#import "SQLiteBind.h"

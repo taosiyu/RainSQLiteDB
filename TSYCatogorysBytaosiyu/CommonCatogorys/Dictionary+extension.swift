@@ -8,6 +8,18 @@
 
 import UIKit
 
-class Dictionary_extension: NSObject {
-
+extension Dictionary{
+    //重写下标保证获取是安全的
+    subscript (safe key: Key) -> Value? {
+        get {
+            return self[key]
+        }
+        set {
+            if "\(newValue)" != "Optional(nil)" && "\(newValue)" != "Optional(\"nil\")" {
+                self[key] = newValue
+            } else {
+                self[key] = nil
+            }
+        }
+    }
 }

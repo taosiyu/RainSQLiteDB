@@ -65,49 +65,7 @@ open class THINK {
         return self.pull(array, values: values)
     }
     
-    class SString {
-        enum SliceType:Int{
-            case Split = 1,VerLine,Comma,Star,Space,Point
-            
-            static func convert(rawValue:SliceType)->String{
-                switch rawValue {
-                case .Split:
-                    return ","
-                case .VerLine:
-                    return "|"
-                case .Comma:
-                    return "，"
-                case .Star:
-                    return "*"
-                case .Space:
-                    return " "
-                case .Point:
-                    return "."
-                }
-            }
-        }
-       
-        //数组->字符串
-        open class func slice(array:[String],type:SliceType)->String?{
-            return array.joined(separator: SliceType.convert(rawValue: type))
-        }
-        //判断字符串是不是为空
-        static func isEmptyString(string: AnyObject?) -> Bool {
-            if let temp = string {
-                if temp is NSNull {
-                    return false
-                }
-                
-                if !(temp is String) {
-                    return false
-                }
-                
-                return temp.trimmingCharacters(in: CharacterSet.whitespaces).isEmpty
-            }
-            
-            return true
-        }
-    }
+    
     
 
 }

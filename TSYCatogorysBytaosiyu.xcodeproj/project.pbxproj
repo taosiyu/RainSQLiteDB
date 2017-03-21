@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D50CF6B1E7643FD0061329A /* ImageUploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D50CF6A1E7643FD0061329A /* ImageUploadManager.swift */; };
+		7D50CF6F1E764BE60061329A /* UIImageView+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D50CF6E1E764BE60061329A /* UIImageView+Cache.swift */; };
+		7D50CF731E764ECF0061329A /* ImageUploadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D50CF721E764ECF0061329A /* ImageUploadOperation.swift */; };
+		7D50CF821E7685380061329A /* Array+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D50CF811E7685380061329A /* Array+extension.swift */; };
+		7D50CF841E7685750061329A /* Dictionary+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D50CF831E7685750061329A /* Dictionary+extension.swift */; };
+		7D50CF871E7686070061329A /* UIView+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D50CF861E7686070061329A /* UIView+Easy.swift */; };
+		7D50CF891E768CEA0061329A /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D50CF881E768CEA0061329A /* UIColor+extension.swift */; };
+		7DA551261E78E32800BB89BA /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA551251E78E32800BB89BA /* UserDefaultManager.swift */; };
+		7DA551281E78E7F400BB89BA /* UserDeafult+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA551271E78E7F400BB89BA /* UserDeafult+extension.swift */; };
+		7DA5512C1E78F02C00BB89BA /* EasyKeyedArchiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5512B1E78F02C00BB89BA /* EasyKeyedArchiver.swift */; };
+		7DA5512F1E7909AE00BB89BA /* RainSQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5512E1E7909AE00BB89BA /* RainSQLiteDB.swift */; };
+		7DA551321E790D2000BB89BA /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA551311E790D2000BB89BA /* libsqlite3.0.tbd */; };
+		7DA551401E791A4100BB89BA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA551351E791A4100BB89BA /* FMDatabase.m */; };
+		7DA551411E791A4100BB89BA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA551371E791A4100BB89BA /* FMResultSet.m */; };
+		7DA551421E791A4100BB89BA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA551391E791A4100BB89BA /* FMDatabaseQueue.m */; };
+		7DA551431E791A4100BB89BA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5513B1E791A4100BB89BA /* FMDatabaseAdditions.m */; };
+		7DA551441E791A4100BB89BA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5513D1E791A4100BB89BA /* FMDatabasePool.m */; };
+		7DA551451E791A4100BB89BA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DA5513E1E791A4100BB89BA /* Info.plist */; };
 		7DBDEE691E76367500DD81AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDEE681E76367500DD81AF /* AppDelegate.swift */; };
 		7DBDEE6B1E76367500DD81AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDEE6A1E76367500DD81AF /* ViewController.swift */; };
 		7DBDEE6E1E76367500DD81AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DBDEE6C1E76367500DD81AF /* Main.storyboard */; };
@@ -14,6 +32,10 @@
 		7DBDEE731E76367500DD81AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DBDEE711E76367500DD81AF /* LaunchScreen.storyboard */; };
 		7DBDEE7E1E76367500DD81AF /* TSYCatogorysBytaosiyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDEE7D1E76367500DD81AF /* TSYCatogorysBytaosiyuTests.swift */; };
 		7DBDEE891E76367500DD81AF /* TSYCatogorysBytaosiyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDEE881E76367500DD81AF /* TSYCatogorysBytaosiyuUITests.swift */; };
+		7DBDEE981E7636BB00DD81AF /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDEE971E7636BB00DD81AF /* String+extension.swift */; };
+		7DBDEE9A1E7636FC00DD81AF /* HeighLevelFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBDEE991E7636FC00DD81AF /* HeighLevelFunc.swift */; };
+		7DCDFACF1E7BC4A200367A0B /* SQLiteBind.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCDFACE1E7BC4A200367A0B /* SQLiteBind.m */; };
+		7DCDFAD21E7F84C300367A0B /* RainSQLiteFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCDFAD11E7F84C300367A0B /* RainSQLiteFunc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D50CF6A1E7643FD0061329A /* ImageUploadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUploadManager.swift; sourceTree = "<group>"; };
+		7D50CF6E1E764BE60061329A /* UIImageView+Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Cache.swift"; sourceTree = "<group>"; };
+		7D50CF721E764ECF0061329A /* ImageUploadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUploadOperation.swift; sourceTree = "<group>"; };
+		7D50CF811E7685380061329A /* Array+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+extension.swift"; sourceTree = "<group>"; };
+		7D50CF831E7685750061329A /* Dictionary+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+extension.swift"; sourceTree = "<group>"; };
+		7D50CF861E7686070061329A /* UIView+Easy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Easy.swift"; sourceTree = "<group>"; };
+		7D50CF881E768CEA0061329A /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		7DA551251E78E32800BB89BA /* UserDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		7DA551271E78E7F400BB89BA /* UserDeafult+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDeafult+extension.swift"; sourceTree = "<group>"; };
+		7DA5512B1E78F02C00BB89BA /* EasyKeyedArchiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyKeyedArchiver.swift; sourceTree = "<group>"; };
+		7DA5512E1E7909AE00BB89BA /* RainSQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainSQLiteDB.swift; sourceTree = "<group>"; };
+		7DA551311E790D2000BB89BA /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7DA551331E791A4100BB89BA /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		7DA551341E791A4100BB89BA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		7DA551351E791A4100BB89BA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		7DA551361E791A4100BB89BA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		7DA551371E791A4100BB89BA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		7DA551381E791A4100BB89BA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		7DA551391E791A4100BB89BA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		7DA5513A1E791A4100BB89BA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		7DA5513B1E791A4100BB89BA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		7DA5513C1E791A4100BB89BA /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		7DA5513D1E791A4100BB89BA /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		7DA5513E1E791A4100BB89BA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = src/fmdb/Info.plist; sourceTree = "<group>"; };
+		7DA5514C1E791B6C00BB89BA /* TSYCatogorysBytaosiyu-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSYCatogorysBytaosiyu-Swift.h"; sourceTree = "<group>"; };
 		7DBDEE651E76367500DD81AF /* TSYCatogorysBytaosiyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSYCatogorysBytaosiyu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBDEE681E76367500DD81AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DBDEE6A1E76367500DD81AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +94,11 @@
 		7DBDEE841E76367500DD81AF /* TSYCatogorysBytaosiyuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSYCatogorysBytaosiyuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBDEE881E76367500DD81AF /* TSYCatogorysBytaosiyuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSYCatogorysBytaosiyuUITests.swift; sourceTree = "<group>"; };
 		7DBDEE8A1E76367500DD81AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DBDEE971E7636BB00DD81AF /* String+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
+		7DBDEE991E7636FC00DD81AF /* HeighLevelFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeighLevelFunc.swift; sourceTree = "<group>"; };
+		7DCDFACD1E7BC4A200367A0B /* SQLiteBind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteBind.h; sourceTree = "<group>"; };
+		7DCDFACE1E7BC4A200367A0B /* SQLiteBind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteBind.m; sourceTree = "<group>"; };
+		7DCDFAD11E7F84C300367A0B /* RainSQLiteFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainSQLiteFunc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA551321E790D2000BB89BA /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +127,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D50CF691E7643DA0061329A /* imageUpload */ = {
+			isa = PBXGroup;
+			children = (
+				7D50CF6A1E7643FD0061329A /* ImageUploadManager.swift */,
+				7D50CF721E764ECF0061329A /* ImageUploadOperation.swift */,
+				7D50CF6E1E764BE60061329A /* UIImageView+Cache.swift */,
+			);
+			path = imageUpload;
+			sourceTree = "<group>";
+		};
+		7D50CF851E7685DA0061329A /* EasyUI */ = {
+			isa = PBXGroup;
+			children = (
+				7D50CF861E7686070061329A /* UIView+Easy.swift */,
+			);
+			path = EasyUI;
+			sourceTree = "<group>";
+		};
+		7DA551241E78E2E600BB89BA /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				7DA551251E78E32800BB89BA /* UserDefaultManager.swift */,
+				7DA551271E78E7F400BB89BA /* UserDeafult+extension.swift */,
+			);
+			path = UserDefault;
+			sourceTree = "<group>";
+		};
+		7DA5512A1E78F00200BB89BA /* UserKeyedArchiver */ = {
+			isa = PBXGroup;
+			children = (
+				7DA5512B1E78F02C00BB89BA /* EasyKeyedArchiver.swift */,
+			);
+			path = UserKeyedArchiver;
+			sourceTree = "<group>";
+		};
+		7DA5512D1E79097D00BB89BA /* RainSQLite */ = {
+			isa = PBXGroup;
+			children = (
+				7DA5512E1E7909AE00BB89BA /* RainSQLiteDB.swift */,
+				7DCDFAD11E7F84C300367A0B /* RainSQLiteFunc.swift */,
+				7DCDFACD1E7BC4A200367A0B /* SQLiteBind.h */,
+				7DCDFACE1E7BC4A200367A0B /* SQLiteBind.m */,
+			);
+			path = RainSQLite;
+			sourceTree = "<group>";
+		};
+		7DA551301E790D2000BB89BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DA551311E790D2000BB89BA /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DA5513F1E791A4100BB89BA /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				7DA551331E791A4100BB89BA /* FMDB.h */,
+				7DA551341E791A4100BB89BA /* FMDatabase.h */,
+				7DA551351E791A4100BB89BA /* FMDatabase.m */,
+				7DA551361E791A4100BB89BA /* FMResultSet.h */,
+				7DA551371E791A4100BB89BA /* FMResultSet.m */,
+				7DA551381E791A4100BB89BA /* FMDatabaseQueue.h */,
+				7DA551391E791A4100BB89BA /* FMDatabaseQueue.m */,
+				7DA5513A1E791A4100BB89BA /* FMDatabaseAdditions.h */,
+				7DA5513B1E791A4100BB89BA /* FMDatabaseAdditions.m */,
+				7DA5513C1E791A4100BB89BA /* FMDatabasePool.h */,
+				7DA5513D1E791A4100BB89BA /* FMDatabasePool.m */,
+				7DA5513E1E791A4100BB89BA /* Info.plist */,
+			);
+			name = fmdb;
+			path = "../../../../Downloads/fmdb-master";
+			sourceTree = "<group>";
+		};
 		7DBDEE5C1E76367500DD81AF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +208,7 @@
 				7DBDEE7C1E76367500DD81AF /* TSYCatogorysBytaosiyuTests */,
 				7DBDEE871E76367500DD81AF /* TSYCatogorysBytaosiyuUITests */,
 				7DBDEE661E76367500DD81AF /* Products */,
+				7DA551301E790D2000BB89BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +225,15 @@
 		7DBDEE671E76367500DD81AF /* TSYCatogorysBytaosiyu */ = {
 			isa = PBXGroup;
 			children = (
+				7DA5514C1E791B6C00BB89BA /* TSYCatogorysBytaosiyu-Swift.h */,
+				7DA5513F1E791A4100BB89BA /* fmdb */,
+				7DCDFAD01E7BEFB200367A0B /* Realm */,
+				7DA5512D1E79097D00BB89BA /* RainSQLite */,
+				7DA5512A1E78F00200BB89BA /* UserKeyedArchiver */,
+				7DA551241E78E2E600BB89BA /* UserDefault */,
+				7D50CF851E7685DA0061329A /* EasyUI */,
+				7D50CF691E7643DA0061329A /* imageUpload */,
+				7DBDEE961E76367B00DD81AF /* CommonCatogorys */,
 				7DBDEE681E76367500DD81AF /* AppDelegate.swift */,
 				7DBDEE6A1E76367500DD81AF /* ViewController.swift */,
 				7DBDEE6C1E76367500DD81AF /* Main.storyboard */,
@@ -123,6 +260,25 @@
 				7DBDEE8A1E76367500DD81AF /* Info.plist */,
 			);
 			path = TSYCatogorysBytaosiyuUITests;
+			sourceTree = "<group>";
+		};
+		7DBDEE961E76367B00DD81AF /* CommonCatogorys */ = {
+			isa = PBXGroup;
+			children = (
+				7DBDEE991E7636FC00DD81AF /* HeighLevelFunc.swift */,
+				7DBDEE971E7636BB00DD81AF /* String+extension.swift */,
+				7D50CF811E7685380061329A /* Array+extension.swift */,
+				7D50CF831E7685750061329A /* Dictionary+extension.swift */,
+				7D50CF881E768CEA0061329A /* UIColor+extension.swift */,
+			);
+			path = CommonCatogorys;
+			sourceTree = "<group>";
+		};
+		7DCDFAD01E7BEFB200367A0B /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Realm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +388,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA551451E791A4100BB89BA /* Info.plist in Resources */,
 				7DBDEE731E76367500DD81AF /* LaunchScreen.storyboard in Resources */,
 				7DBDEE701E76367500DD81AF /* Assets.xcassets in Resources */,
 				7DBDEE6E1E76367500DD81AF /* Main.storyboard in Resources */,
@@ -259,8 +416,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA5512F1E7909AE00BB89BA /* RainSQLiteDB.swift in Sources */,
+				7DA5512C1E78F02C00BB89BA /* EasyKeyedArchiver.swift in Sources */,
+				7D50CF871E7686070061329A /* UIView+Easy.swift in Sources */,
+				7DBDEE9A1E7636FC00DD81AF /* HeighLevelFunc.swift in Sources */,
 				7DBDEE6B1E76367500DD81AF /* ViewController.swift in Sources */,
+				7D50CF821E7685380061329A /* Array+extension.swift in Sources */,
 				7DBDEE691E76367500DD81AF /* AppDelegate.swift in Sources */,
+				7D50CF841E7685750061329A /* Dictionary+extension.swift in Sources */,
+				7DA551261E78E32800BB89BA /* UserDefaultManager.swift in Sources */,
+				7D50CF731E764ECF0061329A /* ImageUploadOperation.swift in Sources */,
+				7DBDEE981E7636BB00DD81AF /* String+extension.swift in Sources */,
+				7DCDFACF1E7BC4A200367A0B /* SQLiteBind.m in Sources */,
+				7D50CF891E768CEA0061329A /* UIColor+extension.swift in Sources */,
+				7DA551281E78E7F400BB89BA /* UserDeafult+extension.swift in Sources */,
+				7DA551411E791A4100BB89BA /* FMResultSet.m in Sources */,
+				7D50CF6B1E7643FD0061329A /* ImageUploadManager.swift in Sources */,
+				7DA551431E791A4100BB89BA /* FMDatabaseAdditions.m in Sources */,
+				7D50CF6F1E764BE60061329A /* UIImageView+Cache.swift in Sources */,
+				7DA551441E791A4100BB89BA /* FMDatabasePool.m in Sources */,
+				7DA551401E791A4100BB89BA /* FMDatabase.m in Sources */,
+				7DA551421E791A4100BB89BA /* FMDatabaseQueue.m in Sources */,
+				7DCDFAD21E7F84C300367A0B /* RainSQLiteFunc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +532,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -398,7 +575,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -414,6 +591,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tsy.TSYCatogorysBytaosiyu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ncm/Desktop/myUI/TSYCatogorysBytaosiyu/TSYCatogorysBytaosiyu/TSYCatogorysBytaosiyu-Swift.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,6 +604,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tsy.TSYCatogorysBytaosiyu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ncm/Desktop/myUI/TSYCatogorysBytaosiyu/TSYCatogorysBytaosiyu/TSYCatogorysBytaosiyu-Swift.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -503,6 +682,7 @@
 				7DBDEE8F1E76367500DD81AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DBDEE901E76367500DD81AF /* Build configuration list for PBXNativeTarget "TSYCatogorysBytaosiyuTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +691,7 @@
 				7DBDEE921E76367500DD81AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DBDEE931E76367500DD81AF /* Build configuration list for PBXNativeTarget "TSYCatogorysBytaosiyuUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +700,7 @@
 				7DBDEE951E76367500DD81AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
